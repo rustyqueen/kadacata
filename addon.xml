@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.KodiCat" name="[B]KodiCat Repository[/B]" version="1.0.8" provider-name="KodiCat">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="[B]KodiCat Repository[/B]">
+        <dir>
+		<info compressed="false">https://rock.seedhost.eu/kcat123/Repo/zips/addons.xml</info>
+		<checksum>https://rock.seedhost.eu/kcat123/Repo/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://rock.seedhost.eu/kcat123/Repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news></news>
+    </extension>
+</addon>
